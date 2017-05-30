@@ -1,0 +1,133 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+NextLevelEncryption
+</name>
+</assembly>
+<members>
+<member name="P:NextLevelEncryption.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:NextLevelEncryption.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:NextLevelEncryption.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:NextLevelEncryption.Encoding.StringToBinary(System.String)">
+	<summary>
+ Converts an input string to binary
+ </summary>
+	<param name="input">String to convert to binary</param>
+	<returns>Returns input string to binary</returns>
+	<remarks></remarks>
+</member><member name="M:NextLevelEncryption.Encoding.BinaryToString(System.String)">
+	<summary>
+ Converts input binary to string
+ </summary>
+	<param name="input">Binary input to covert back to string</param>
+	<returns>Returns binary input converted to string</returns>
+	<remarks></remarks>
+</member><member name="M:NextLevelEncryption.Encoding.Base64Encrypt(System.String)">
+	<summary>
+ Encrypt a file with Base64
+ </summary>
+	<param name="file">File to encrypt</param>
+	<remarks></remarks>
+</member><member name="M:NextLevelEncryption.Encoding.Base64Decrypt(System.String)">
+	<summary>
+ Decrypt a file with Base64
+ </summary>
+	<param name="file">File to decrypt</param>
+	<remarks></remarks>
+</member><member name="M:NextLevelEncryption.Encoding.Encode(System.String,System.Text.Encoding,System.Text.Encoding)">
+	<summary>
+ Encodes a string from one encoding to another.
+ </summary>
+	<param name="input">String to encode</param>
+	<param name="original">Input string encoding</param>
+	<param name="output">Output string encoding</param>
+	<returns>Returns input string encoded into output encoding</returns>
+	<remarks></remarks>
+</member><member name="M:NextLevelEncryption.Encoding.Encode(System.Char[],System.Text.Encoding,System.Text.Encoding)">
+	<summary>
+ Encodes a string from one encoding to another.
+ </summary>
+	<param name="input">String to encode</param>
+	<param name="original">Input string encoding</param>
+	<param name="output">Output string encoding</param>
+	<returns>Returns input string encoded into output encoding</returns>
+	<remarks></remarks>
+</member><member name="M:NextLevelEncryption.Encoding.Encode(System.Byte[],System.Text.Encoding,System.Text.Encoding)">
+	<summary>
+ Encodes a string from one encoding to another.
+ </summary>
+	<param name="input">String to encode</param>
+	<param name="original">Input string encoding</param>
+	<param name="output">Output string encoding</param>
+	<returns>Returns input string encoded into output encoding</returns>
+	<remarks></remarks>
+</member><member name="M:NextLevelEncryption.Encoding.Encode(System.String[],System.Text.Encoding,System.Text.Encoding)">
+	<summary>
+ Encodes an array of strings from one encoding to another.
+ </summary>
+	<param name="input">String array to encode</param>
+	<param name="original">Input string encoding</param>
+	<param name="output">Output string encoding</param>
+	<returns>Returns input string encoded into output encoding</returns>
+	<remarks></remarks>
+</member><member name="M:NextLevelEncryption.Encryption.Encrypt(System.String,System.String)">
+	<summary>
+ Encrypt text using AES Algorithm
+ </summary>
+	<param name="text">Text to encrypt</param>
+	<param name="password">Password with which to encrypt</param>
+	<returns>Returns encrypted text</returns>
+	<remarks></remarks>
+</member><member name="M:NextLevelEncryption.Encryption.Decrypt(System.String,System.String)">
+	<summary>
+ Decrypt text using AES Algorithm
+ </summary>
+	<param name="text">Text to decrypt</param>
+	<param name="password">Password with which to decrypt</param>
+	<returns>Returns decrypted text</returns>
+	<remarks></remarks>
+</member><member name="M:NextLevelEncryption.Encryption.CryptoRansomwareEncryption(System.String,System.String)">
+	<summary>
+ Encrypt file to protect from hackers asking ransom
+ </summary>
+	<param name="file">File to Ransomware Protect</param>
+	<param name="key">Password to encrypt with</param>
+	<remarks></remarks>
+</member><member name="M:NextLevelEncryption.Encryption.CryptoRansomwareDecryption(System.String,System.String)">
+	<summary>
+ Decrypt file from protection from hackers asking ransom
+ </summary>
+	<param name="file">File to Ransomware Unprotect</param>
+	<param name="key">Password to decrypt with</param>
+	<remarks></remarks>
+</member><member name="M:NextLevelEncryption.Encryption.SuperEncrypt(System.String,System.String)">
+	<summary>
+ Super Encrypt text using AES Algorithm and SHA1 Algorithm
+ </summary>
+	<param name="text">Text to encrypt</param>
+	<param name="password">Password with which to encrypt</param>
+	<returns>Returns encrypted text</returns>
+	<remarks></remarks>2
+
+</member><member name="M:NextLevelEncryption.Encryption.SuperDecrypt(System.String,System.String)">
+	<summary>
+ Super Decrypt text using AES Algorithm and SHA1 Algorithm
+ </summary>
+	<param name="text">Text to decrypt</param>
+	<param name="password">Password with which to decrypt</param>
+	<returns>Returns decrypted text</returns>
+	<remarks></remarks>
+</member>
+</members>
+</doc>
